@@ -3,12 +3,7 @@ import { ArrowDown, Download, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
-const roles = [
-  "Python Developer",
-  "Problem Solver",
-  "UI Designer",
-  "Video Editor",
-];
+const roles = ["Python Developer", "Problem Solver", "UI Designer", "Video Editor"];
 
 const HeroSection = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -24,7 +19,7 @@ const HeroSection = () => {
     <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
-      
+
       {/* Animated background orbs */}
       <motion.div
         className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl"
@@ -69,8 +64,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
         >
-          I'm{" "}
-          <span className="text-primary glow-text">Your Name</span>
+          I'm <span className="text-primary glow-text">Amrutha</span>
         </motion.h1>
 
         {/* Typing animation */}
@@ -80,9 +74,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="h-12 md:h-16 flex items-center justify-center mb-8"
         >
-          <span className="text-xl md:text-3xl text-muted-foreground">
-            I'm a{" "}
-          </span>
+          <span className="text-xl md:text-3xl text-muted-foreground">I'm a </span>
           <motion.span
             key={currentRole}
             initial={{ opacity: 0, y: 20 }}
@@ -102,8 +94,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          Crafting elegant solutions through code, design, and creativity.
-          Let's build something amazing together.
+          Crafting elegant solutions through code, design, and creativity. Let's build something amazing together.
         </motion.p>
 
         {/* Buttons */}
