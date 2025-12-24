@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Download, Github, User } from "lucide-react";
+import { ArrowDown, Download, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
@@ -47,26 +47,6 @@ const HeroSection = () => {
       />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        {/* Profile Image */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="mb-8"
-        >
-          <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
-            {/* Glow effect */}
-            <div className="absolute inset-0 rounded-full bg-primary/30 blur-xl animate-pulse" />
-            {/* Profile placeholder */}
-            <div className="relative w-full h-full rounded-full border-2 border-primary/50 bg-card flex items-center justify-center overflow-hidden">
-              {/* Replace this div with an img tag when you have your photo */}
-              <User className="w-16 h-16 md:w-20 md:h-20 text-muted-foreground" />
-            </div>
-            {/* Decorative ring */}
-            <div className="absolute -inset-1 rounded-full border border-primary/20" />
-          </div>
-        </motion.div>
-
         {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
