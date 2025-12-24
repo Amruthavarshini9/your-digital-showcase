@@ -36,9 +36,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="text-xl font-bold">
-            <span className="text-primary">&lt;</span>
             Amrutha
-            <span className="text-primary">/&gt;</span>
           </a>
 
           {/* Desktop Navigation */}
