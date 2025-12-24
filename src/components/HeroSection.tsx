@@ -47,16 +47,6 @@ const HeroSection = () => {
       />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        {/* Greeting */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-muted-foreground font-mono text-sm md:text-base mb-4"
-        >
-          {"<Hello World />"}
-        </motion.p>
-
         {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
