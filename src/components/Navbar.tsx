@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="text-xl font-bold">
             <span className="text-primary">&lt;</span>
-            YN
+            Amrutha
             <span className="text-primary">/&gt;</span>
           </a>
 
@@ -56,10 +56,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-foreground"
-          >
+          <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="md:hidden p-2 text-foreground">
             {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
