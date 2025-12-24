@@ -54,7 +54,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
         >
-          I'm <span className="text-primary glow-text">Amrutha</span>
+          I'm <span className="text-primary glow-text">Amrutha Varshini</span>
         </motion.h1>
 
         {/* Typing animation */}
